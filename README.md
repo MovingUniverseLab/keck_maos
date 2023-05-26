@@ -5,7 +5,7 @@ Pupil:
 
 [Wavefront Tolerances of space-based segmented telescopes](https://www.aanda.org/articles/aa/pdf/2022/02/aa42150-21.pdf), Laginja et al. 2022
 
-Just has some nice schematic pupil diagrams. Nothing super useful.
+Has some nice schematic pupil diagrams. 
 
 [Compare HCIPy and Poppy Pupils](https://docs.hcipy.org/0.4.0/tutorials/SegmentedDMs/SegmentedDMs.html)
 
