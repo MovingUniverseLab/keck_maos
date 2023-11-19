@@ -1,0 +1,10 @@
+This "base" configuration is the Keck LGS AO <2023 hardware with the following observing situation:
+
+- Optical STRAP for tip-tilt sensing
+- NGS (TT and LBWFS) star is engineering star:  R=10 mag, on-axis
+- Zenith angle is 30 deg.
+- Running AO system at 472 Hz (high-order LGSWFS and TT)
+- 130 nm of Keck primary segment piston error (via ncpa surf parameter)
+- extra tip-tilt blur from wind-shake and jitter (via ncpa temporal PSD parameter)
+
+
