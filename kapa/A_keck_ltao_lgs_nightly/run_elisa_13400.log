@@ -1,0 +1,10 @@
+/System/Volumes/Data/mnt/g/lu/scratch/jlu/work/ao/keck/maos/keck/k1_lgs_ltao_kapa/maos -o A_keck_ltao_lgs_nightly -c A_keck_ltao_lgs_nightly -O 
+Output folder is 'A_keck_ltao_lgs_nightly'. 8 threads
+SRC: /System/Volumes/Data/mnt/g/lu/code/maos v2.8.0 14e8f856 2023-03-19 15:20:01 -0700
+BUILT: /System/Volumes/Data/mnt/g/lu/code/maos by CLANG (14.0.0) on 2023/04/11 09:33:56 CPU(double) -CUDA +optimization.
+Launched at 2023/04/20 17:43:20 in elisa with PID 13400.
+The web based job monitor can be accessed at http://localhost:10100
+Main config file is A_keck_ltao_lgs_nightly
+Error(readcfg.c:337): Input (A_keck_ltao_lgs_nightly) is not valid
+
+Signal caught: User defined signal 2: 31 (31)

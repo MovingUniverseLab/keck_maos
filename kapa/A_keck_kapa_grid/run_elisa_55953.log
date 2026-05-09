@@ -1,0 +1,357 @@
+/System/Volumes/Data/mnt/g/lu/scratch/jlu/work/ao/keck/maos/keck/k1_lgs_ltao_kapa/maos -o A_keck_kapa_grid A_keck_kapa_grid.conf 
+Output folder is 'A_keck_kapa_grid'.
+SRC: /Users/jlu/mycode/maos v2.9 56b82507 2024-04-25 12:00:56 -0700
+BUILT: /Users/jlu/mycode/maos/build by CLANG (v14.0.0) on 2024/05/06 12:01:36 CPU(F64,+O3) w/o CUDA
+Launched at 2024/11/12 17:28:14 in elisa with PID 55953.
+The web based job monitor can be accessed at http://localhost:12158
+Main config file is default.conf
+loaded 144 (144 new) records from '/Users/jlu/mycode/maos/config/maos/sim.conf'
+loaded   2 (  2 new) records from '/Users/jlu/mycode/maos/config/maos/dm_dual.conf'
+loaded   5 (  5 new) records from '/Users/jlu/mycode/maos/config/maos/atm/atm_mk13n50p.conf'
+loaded   4 (  4 new) records from '/Users/jlu/mycode/maos/config/maos/evl_sq34.conf'
+loaded   4 (  4 new) records from '/Users/jlu/mycode/maos/config/maos/fit_sq34.conf'
+loaded   0 (  0 new) records from '/Users/jlu/mycode/maos/config/maos/fov_sq34.conf'
+loaded  71 ( 71 new) records from '/Users/jlu/mycode/maos/config/maos/recon.conf'
+loaded  80 ( 80 new) records from '/Users/jlu/mycode/maos/config/maos/dbg.conf'
+loaded   0 (  0 new) records from '/Users/jlu/mycode/maos/config/maos/mcao_base.conf'
+loaded  81 ( 81 new) records from '/Users/jlu/mycode/maos/config/maos/powfs_common.conf'
+loaded  44 ( 38 new) records from '/Users/jlu/mycode/maos/config/maos/powfs_none.conf'
+loaded  38 (  0 new) records from '/Users/jlu/mycode/maos/config/maos/powfs_shlgs.conf'
+loaded  38 (  0 new) records from '/Users/jlu/mycode/maos/config/maos/powfs_shngs.conf'
+loaded  34 (  0 new) records from '/Users/jlu/mycode/maos/config/maos/powfs_shtt.conf'
+loaded   8 (  0 new) records from '/Users/jlu/mycode/maos/config/maos/powfs_shttf.conf'
+loaded  38 (  0 new) records from '/Users/jlu/mycode/maos/config/maos/powfs_shngs.conf'
+loaded  34 (  0 new) records from '/Users/jlu/mycode/maos/config/maos/powfs_shtt.conf'
+loaded   0 (  0 new) records from '/Users/jlu/mycode/maos/config/maos/wfs_lgs_ttf_tt.conf'
+loaded   0 (  0 new) records from '/Users/jlu/mycode/maos/config/maos/mcao_lgs.conf'
+loaded   0 (  0 new) records from '/Users/jlu/mycode/maos/config/maos/default.conf'
+Replacing all existing input
+loaded 133 (133 new) records from '/System/Volumes/Data/mnt/g/lu/scratch/jlu/work/ao/keck/maos/keck/k1_lgs_ltao_kapa/keck_sim.conf'
+loaded  19 ( 19 new) records from '/System/Volumes/Data/mnt/g/lu/scratch/jlu/work/ao/keck/maos/keck/k1_lgs_ltao_kapa/keck_dm_single.conf'
+loaded   8 (  6 new) records from '/System/Volumes/Data/mnt/g/lu/scratch/jlu/work/ao/keck/maos/keck/k1_lgs_ltao_kapa/atm_mk13n50p_ground_detail.conf'
+loaded  81 ( 74 new) records from '/Users/jlu/mycode/maos/config/maos/powfs_common.conf'
+loaded  44 ( 38 new) records from '/Users/jlu/mycode/maos/config/maos/powfs_none.conf'
+loaded  44 (  0 new) records from '/System/Volumes/Data/mnt/g/lu/scratch/jlu/work/ao/keck/maos/keck/k1_lgs_ltao_kapa/keck_shwfs_lgs.conf'
+loaded  44 (  0 new) records from '/System/Volumes/Data/mnt/g/lu/scratch/jlu/work/ao/keck/maos/keck/k1_lgs_ltao_kapa/keck_shwfs_ttf_strap.conf'
+loaded  44 (  0 new) records from '/System/Volumes/Data/mnt/g/lu/scratch/jlu/work/ao/keck/maos/keck/k1_lgs_ltao_kapa/keck_shwfs_twfs_lbwfs.conf'
+loaded   0 (  0 new) records from '/System/Volumes/Data/mnt/g/lu/scratch/jlu/work/ao/keck/maos/keck/k1_lgs_ltao_kapa/keck_wfs_lgs_strap_lbwfs.conf'
+loaded  71 ( 71 new) records from '/Users/jlu/mycode/maos/config/maos/recon.conf'
+loaded  80 ( 80 new) records from '/Users/jlu/mycode/maos/config/maos/dbg.conf'
+loaded   4 (  4 new) records from '/Users/jlu/mycode/maos/config/maos/fit_oa.conf'
+loaded  13 (  4 new) records from '/System/Volumes/Data/mnt/g/lu/scratch/jlu/work/ao/keck/maos/keck/k1_lgs_ltao_kapa/A_keck_kapa_grid.conf'
+loaded   0 (  0 new) records from 'command line'
+loaded  26 ( 26 new) records from '/System/Volumes/Data/mnt/g/lu/scratch/jlu/work/ao/keck/maos/keck/k1_lgs_ltao_kapa/keck_llt_CL.conf'
+loaded   2 (  0 new) records from '/System/Volumes/Data/mnt/g/lu/scratch/jlu/work/ao/keck/maos/keck/k1_lgs_ltao_kapa/keck_llt_ltao.conf'
+Adjust LGS range by telescope altitude 4145m.
+Zenith angle is 30 degree.
+    Scaling turbulence height and LGS hs by sec(za).
+    Scaling r0 by cos(za)^(3/5).
+    Scaling wind speed and LGS signal level by cos(za).
+powfs0.epfsm is set to 0.805944 (auto)
+powfs2 is TWFS for powfs0
+Focus blending is not implemented yet for integrated tomography
+parms->sim.mffocus is reset to 0
+There are 1 valid simulation seeds:  10000
+Output PSF for 64 directions
+[00;00mAperture[00;00m is 11 m with sampling 1/64 m
+[00;00mTurbulence at 30 degree zenith angle:[00;00m r0=0.128424m, L0=30m, 14 layers.
+    Greenwood freq is 25.1Hz, anisoplanatic angle is 1.58 as
+    Sampled 4096x4096 at 1/64m. wind dir is randomized.
+    layer  0: height is      0 m, weight is 0.302, wind speed is  4.8 m/s
+    layer  1: height is     17 m, weight is 0.154, wind speed is  5.0 m/s
+    layer  2: height is     35 m, weight is 0.041, wind speed is  5.4 m/s
+    layer  3: height is     52 m, weight is 0.002, wind speed is  6.6 m/s
+    layer  4: height is    139 m, weight is 0.021, wind speed is  6.1 m/s
+    layer  5: height is    231 m, weight is 0.010, wind speed is  6.1 m/s
+    layer  6: height is    323 m, weight is 0.008, wind speed is  6.1 m/s
+    layer  7: height is    416 m, weight is 0.005, wind speed is  6.1 m/s
+    layer  8: height is    508 m, weight is 0.001, wind speed is  6.1 m/s
+    layer  9: height is    932 m, weight is 0.107, wind speed is  5.6 m/s
+    layer 10: height is   5022 m, weight is 0.144, wind speed is 11.1 m/s
+    layer 11: height is   9238 m, weight is 0.093, wind speed is 19.1 m/s
+    layer 12: height is  13856 m, weight is 0.075, wind speed is  8.2 m/s
+    layer 13: height is  22518 m, weight is 0.036, wind speed is  4.8 m/s
+[00;00mReconstruction[00;00m: r0=0.128424m L0=30m. 14 layers. use cone coordinate.
+    layer  0: height is      0 m, weight is 0.302
+    layer  1: height is     17 m, weight is 0.154
+    layer  2: height is     35 m, weight is 0.041
+    layer  3: height is     52 m, weight is 0.002
+    layer  4: height is    139 m, weight is 0.021
+    layer  5: height is    231 m, weight is 0.010
+    layer  6: height is    323 m, weight is 0.008
+    layer  7: height is    416 m, weight is 0.005
+    layer  8: height is    508 m, weight is 0.001
+    layer  9: height is    932 m, weight is 0.107
+    layer 10: height is   5022 m, weight is 0.144
+    layer 11: height is   9238 m, weight is 0.093
+    layer 12: height is  13856 m, weight is 0.075
+    layer 13: height is  22518 m, weight is 0.036
+[00;00mThere are 3 powfs[00;00m
+  powfs0: Order 22, LGS at 99.1 km. Sampling 1/64 m. Thres 30%. [00;00mT/T is removed in right hand side in tomography.[00;00m
+    CCD image is 4x4 @ 3000x3000 mas, blur 38% (sigma), 236Hz, wvl: [ 5.89e-07]
+    Gtilt in reconstruction. Physical optics start at 0 with [00;00m'matched filter'[00;00m [00;00m(noisy)[00;00m
+  powfs1: Order  1, NGS at inf km. Sampling 1/16 m. Thres 30%. 
+    Gtilt in reconstruction. Geomtric optics start at 2 with ztilt [00;00m(noisy)[00;00m
+  powfs2: Order 22, NGS at inf km. Sampling 1/32 m. Thres 50%. 
+    CCD image is 3x3 @ 1500x1500 mas, blur 0% (sigma), 0.472Hz, wvl: [ 7.2e-07]
+    Gtilt in reconstruction. Geomtric optics start at 1000 with gtilt Physical optics start at 0 with [00;00m'matched filter'[00;00m [00;00m(noisy)[00;00m
+[00;00mThere are 6 wfs[00;00m
+    wfs 0: powfs 0, at (  -7.60,    0.00) arcsec,  99 km, siglev is 259.808 bkgrnd is 6
+    wfs 1: powfs 0, at (   0.00,    7.60) arcsec,  99 km, siglev is 259.808 bkgrnd is 6
+    wfs 2: powfs 0, at (   0.00,   -7.60) arcsec,  99 km, siglev is 259.808 bkgrnd is 6
+    wfs 3: powfs 0, at (   7.60,    0.00) arcsec,  99 km, siglev is 259.808 bkgrnd is 6
+    wfs 4: powfs 1, at (   0.00,    0.00) arcsec, inf km, siglev is 64529 bkgrnd is 8.273
+    wfs 5: powfs 2, at (   0.00,    0.00) arcsec, inf km, siglev is 1.47933e+08 bkgrnd is 25.25
+[00;00mThere are 1 DMs[00;00m
+  DM 0: at 0 km, pitch 0.563 m, offset 0, 2 micron stroke, 1.2 micron inter-actuator stroke.
+    Normalized cubic influence function with inter-actuator coupling of 0.223
+[00;00mTomography[00;00m is using CG, with [00;00mFourer Domain[00;00m preconditioner, [00;00m12[00;00m iterations, integrated tomo.
+[00;00mDM Fitting [00;00mis using CG, with [00;00mNo[00;00m preconditioner, [00;00m10[00;00m iterations
+[00;00mThere are 1 DM fitting directions[00;00m
+    Fit 0: weight is 1.000, at (   0.00,    0.00) arcsec
+[00;00mThere are 64 evaluation directions[00;00m at sampling 1/64 m.
+    Evl 0: weight is 0.016, at (   0.00,    0.00) arcsec
+    Evl 1: weight is 0.016, at (   0.00,    5.00) arcsec
+    Evl 2: weight is 0.016, at (   0.00,   10.00) arcsec
+    Evl 3: weight is 0.016, at (   0.00,   15.00) arcsec
+    Evl 4: weight is 0.016, at (   0.00,   20.00) arcsec
+    Evl 5: weight is 0.016, at (   0.00,   25.00) arcsec
+    Evl 6: weight is 0.016, at (   0.00,   30.00) arcsec
+    Evl 7: weight is 0.016, at (   0.00,   35.00) arcsec
+    Evl 8: weight is 0.016, at (   5.00,    0.00) arcsec
+    Evl 9: weight is 0.016, at (   5.00,    5.00) arcsec
+    Evl 10: weight is 0.016, at (   5.00,   10.00) arcsec
+    Evl 11: weight is 0.016, at (   5.00,   15.00) arcsec
+    Evl 12: weight is 0.016, at (   5.00,   20.00) arcsec
+    Evl 13: weight is 0.016, at (   5.00,   25.00) arcsec
+    Evl 14: weight is 0.016, at (   5.00,   30.00) arcsec
+    Evl 15: weight is 0.016, at (   5.00,   35.00) arcsec
+    Evl 16: weight is 0.016, at (  10.00,    0.00) arcsec
+    Evl 17: weight is 0.016, at (  10.00,    5.00) arcsec
+    Evl 18: weight is 0.016, at (  10.00,   10.00) arcsec
+    Evl 19: weight is 0.016, at (  10.00,   15.00) arcsec
+    Evl 20: weight is 0.016, at (  10.00,   20.00) arcsec
+    Evl 21: weight is 0.016, at (  10.00,   25.00) arcsec
+    Evl 22: weight is 0.016, at (  10.00,   30.00) arcsec
+    Evl 23: weight is 0.016, at (  10.00,   35.00) arcsec
+    Evl 24: weight is 0.016, at (  15.00,    0.00) arcsec
+    Evl 25: weight is 0.016, at (  15.00,    5.00) arcsec
+    Evl 26: weight is 0.016, at (  15.00,   10.00) arcsec
+    Evl 27: weight is 0.016, at (  15.00,   15.00) arcsec
+    Evl 28: weight is 0.016, at (  15.00,   20.00) arcsec
+    Evl 29: weight is 0.016, at (  15.00,   25.00) arcsec
+    Evl 30: weight is 0.016, at (  15.00,   30.00) arcsec
+    Evl 31: weight is 0.016, at (  15.00,   35.00) arcsec
+    Evl 32: weight is 0.016, at (  20.00,    0.00) arcsec
+    Evl 33: weight is 0.016, at (  20.00,    5.00) arcsec
+    Evl 34: weight is 0.016, at (  20.00,   10.00) arcsec
+    Evl 35: weight is 0.016, at (  20.00,   15.00) arcsec
+    Evl 36: weight is 0.016, at (  20.00,   20.00) arcsec
+    Evl 37: weight is 0.016, at (  20.00,   25.00) arcsec
+    Evl 38: weight is 0.016, at (  20.00,   30.00) arcsec
+    Evl 39: weight is 0.016, at (  20.00,   35.00) arcsec
+    Evl 40: weight is 0.016, at (  25.00,    0.00) arcsec
+    Evl 41: weight is 0.016, at (  25.00,    5.00) arcsec
+    Evl 42: weight is 0.016, at (  25.00,   10.00) arcsec
+    Evl 43: weight is 0.016, at (  25.00,   15.00) arcsec
+    Evl 44: weight is 0.016, at (  25.00,   20.00) arcsec
+    Evl 45: weight is 0.016, at (  25.00,   25.00) arcsec
+    Evl 46: weight is 0.016, at (  25.00,   30.00) arcsec
+    Evl 47: weight is 0.016, at (  25.00,   35.00) arcsec
+    Evl 48: weight is 0.016, at (  30.00,    0.00) arcsec
+    Evl 49: weight is 0.016, at (  30.00,    5.00) arcsec
+    Evl 50: weight is 0.016, at (  30.00,   10.00) arcsec
+    Evl 51: weight is 0.016, at (  30.00,   15.00) arcsec
+    Evl 52: weight is 0.016, at (  30.00,   20.00) arcsec
+    Evl 53: weight is 0.016, at (  30.00,   25.00) arcsec
+    Evl 54: weight is 0.016, at (  30.00,   30.00) arcsec
+    Evl 55: weight is 0.016, at (  30.00,   35.00) arcsec
+    Evl 56: weight is 0.016, at (  35.00,    0.00) arcsec
+    Evl 57: weight is 0.016, at (  35.00,    5.00) arcsec
+    Evl 58: weight is 0.016, at (  35.00,   10.00) arcsec
+    Evl 59: weight is 0.016, at (  35.00,   15.00) arcsec
+    Evl 60: weight is 0.016, at (  35.00,   20.00) arcsec
+    Evl 61: weight is 0.016, at (  35.00,   25.00) arcsec
+    Evl 62: weight is 0.016, at (  35.00,   30.00) arcsec
+    Evl 63: weight is 0.016, at (  35.00,   35.00) arcsec
+[00;00mSimulation[00;00m start at step 0, end at step 1500, with time step 1/472s, [00;00mclose loop[00;00m.
+After setup_parms:	2.3 MiB.
+
+*** Preparation started at 2024/11/12 17:28:14 in elisa. ***
+
+Using thread pool with 8 threads
+Reading aperture amplitude map from KECK.fits
+Warning(accphi.c:478): 27866 points not covered by input screen
+iwvl 0: Science PSF is using grid size of 1400. The PSF will sum to 6.56969377481658
+iwvl 1: Science PSF is using grid size of 1400. The PSF will sum to 6.56969377481658
+iwvl 2: Science PSF is using grid size of 1400. The PSF will sum to 6.56969377481658
+iwvl 3: Science PSF is using grid size of 1400. The PSF will sum to 6.56969377481658
+iwvl 4: Science PSF is using grid size of 1400. The PSF will sum to 6.56969377481658
+iwvl 5: Science PSF is using grid size of 1400. The PSF will sum to 6.56969377481658
+iwvl 6: Science PSF is using grid size of 1400. The PSF will sum to 6.56969377481658
+iwvl 7: Science PSF is using grid size of 1400. The PSF will sum to 6.56969377481658
+iwvl 8: Science PSF is using grid size of 1400. The PSF will sum to 6.56969377481658
+After setup_aper:	33.6 MiB.
+
+[00;00mSetting up powfs 0 geom[00;00m
+
+There are 32 points in each subaperture of 0.5m.
+There are 307 valid subaperture.
+
+[00;00mSetting up powfs 1 geom[00;00m
+
+There are 176 points in each subaperture of 11m.
+There are 1 valid subaperture.
+
+[00;00mSetting up powfs 2 geom[00;00m
+
+There are 16 points in each subaperture of 0.5m.
+There are 290 valid subaperture.
+After setup_powfs_init:	68.8 MiB.
+
+[00;00mSetting up reconstructor geometry.[00;00m
+
+PLOC is 47x47, with sampling of 0.25m (not square)
+    DM 0: grid is 23 x 23
+FLOC is 47x47, with sampling of 0.25m (not square)
+Tomography grid is not square:
+    layer 0: xloc grid is 100 x 100, sampling is 0.250 m,  1845 points
+    layer 1: xloc grid is 100 x 100, sampling is 0.250 m,  1845 points
+    layer 2: xloc grid is 100 x 100, sampling is 0.250 m,  1853 points
+    layer 3: xloc grid is 100 x 100, sampling is 0.250 m,  1855 points
+    layer 4: xloc grid is 100 x 100, sampling is 0.250 m,  1869 points
+    layer 5: xloc grid is 100 x 100, sampling is 0.249 m,  1877 points
+    layer 6: xloc grid is 100 x 100, sampling is 0.249 m,  1885 points
+    layer 7: xloc grid is 100 x 100, sampling is 0.249 m,  1899 points
+    layer 8: xloc grid is 100 x 100, sampling is 0.249 m,  1907 points
+    layer 9: xloc grid is 100 x 100, sampling is 0.248 m,  1944 points
+    layer 10: xloc grid is 100 x 100, sampling is 0.237 m,  2410 points
+    layer 11: xloc grid is 100 x 100, sampling is 0.227 m,  2998 points
+    layer 12: xloc grid is 100 x 100, sampling is 0.215 m,  3766 points
+    layer 13: xloc grid is 100 x 100, sampling is 0.193 m,  5789 points
+Setting up surface OPD
+
+Surface 0:
+Loading surface OPD from Keck_ncpa_rmswfe130nm.fits
+Does not contain SURFEVL. Assume it covers all evaluation directions.
+Does not contain SURFWFS, Assume it covers all WFS.
+
+[00;00mSetting up powfs 0 PO WFS[00;00m
+
+OTF dimension is 100x100 (calculated)
+Uplink FWHM (illt 0, iwvl 0) is 0.582786"
+Downlink FWHM (illt 0, iwvl 0) is 0.671379"
+Generating matched filter for powfs 0
+sa index   location       noise equivalent angle
+     111: (  0.5,  -1.5) m, (182.57, 182.65) mas
+     147: (  2.0,  -0.5) m, (177.40, 176.58) mas
+     150: (  3.5,  -0.5) m, (174.42, 173.13) mas
+     152: (  4.5,  -0.5) m, (174.18, 172.19) mas
+     153: (  5.0,  -0.5) m, (188.02, 185.89) mas
+sa index   location       noise equivalent angle
+     111: (  0.5,  -1.5) m, (182.57, 182.65) mas
+     147: (  2.0,  -0.5) m, (177.40, 176.58) mas
+     150: (  3.5,  -0.5) m, (174.42, 173.13) mas
+     152: (  4.5,  -0.5) m, (174.18, 172.19) mas
+     153: (  5.0,  -0.5) m, (188.02, 185.89) mas
+sa index   location       noise equivalent angle
+     111: (  0.5,  -1.5) m, (182.57, 182.65) mas
+     147: (  2.0,  -0.5) m, (177.40, 176.58) mas
+     150: (  3.5,  -0.5) m, (174.42, 173.13) mas
+     152: (  4.5,  -0.5) m, (174.18, 172.19) mas
+     153: (  5.0,  -0.5) m, (188.02, 185.89) mas
+sa index   location       noise equivalent angle
+     111: (  0.5,  -1.5) m, (182.57, 182.65) mas
+     147: (  2.0,  -0.5) m, (177.40, 176.58) mas
+     150: (  3.5,  -0.5) m, (174.42, 173.13) mas
+     152: (  4.5,  -0.5) m, (174.18, 172.19) mas
+     153: (  5.0,  -0.5) m, (188.02, 185.89) mas
+
+[00;00mSetting up powfs 2 PO WFS[00;00m
+
+OTF dimension is 32x32 (calculated)
+Generating matched filter for powfs 2
+powfs2: sigrecon is limited to 0 for too high siglev 147933
+Use sanea to derive neasim
+Use sanea to derive neasim
+
+[00;00mSetting up reconstructor[00;00m
+
+Recon NEA: cmf(175.91) cmf(175.91) cmf(175.91) cmf(175.91) geom(2.22) mf(1.48)  mas
+Setup or update control matrix parameters.
+RRtwfs svd threshold is 1e-10
+Replacing HA by HA*fit->actextrap
+Adding piston cr to fit matrix
+    dm 0, mode 1: there are 72 slave actuators
+Before assembling fit matrix:	1617.5 MiB.
+Building fit->FR
+Building fit->FL
+Adding tikhonov constraint of 1.0e-07 to FLM
+The maximum eigen value is estimated to be around 9.0e-03
+DM Fit number of Low rank terms: 2 in LHS
+After assemble fit matrix:	1617.9 MiB.
+After setup_recon:	1617.9 MiB.
+
+*** Simulation started at 2024/11/12 17:28:23 in elisa. ***
+
+Running seed 10000
+Converting windshake PSD to time series.
+DM cache with grid 1/7.1048m
+Wind dir:   5.1 162.8  73.2 213.3 237.4  68.1 139.2 107.0 301.3 264.9 130.1  57.4 141.2  25.5 deg
+Layer 0: Randn: 0.82 FFT: 0.28 Save: 0.18 seconds.
+Layer 1: Randn: 0.00 FFT: 0.01 Save: 0.19 seconds.
+Layer 2: Randn: 0.28 FFT: 0.31 Save: 0.17 seconds.
+Layer 3: Randn: 0.00 FFT: 0.01 Save: 0.18 seconds.
+Layer 4: Randn: 0.28 FFT: 0.32 Save: 0.19 seconds.
+Layer 5: Randn: 0.00 FFT: 0.01 Save: 0.19 seconds.
+Layer 6: Randn: 0.28 FFT: 0.29 Save: 0.19 seconds.
+Layer 7: Randn: 0.00 FFT: 0.01 Save: 0.20 seconds.
+Layer 8: Randn: 0.28 FFT: 0.31 Save: 0.19 seconds.
+Layer 9: Randn: 0.00 FFT: 0.01 Save: 0.19 seconds.
+Layer 10: Randn: 0.28 FFT: 0.30 Save: 0.18 seconds.
+Layer 11: Randn: 0.00 FFT: 0.01 Save: 0.18 seconds.
+Layer 12: Randn: 0.29 FFT: 0.36 Save: 0.17 seconds.
+Layer 13: Randn: 0.00 FFT: 0.01 Save: 0.18 seconds.
+Using /Users/jlu/.aos/cache/atm/vonkarman_14_4096x4096_0.015625_1045520744d.bin
+After genatm:	2032.6 MiB.
+Step     #  Open Loop  PR TT  On axis  PR TT  Field RMS PR TT     Timing 
+Step     0: OL 1827.6 1553.0  OA 1916.1 1622.8 CL 1827.6 1553.0 nm  0.576 s
+Step     2: OL 1800.9 1519.4  OA 1896.6 1596.4 CL 1800.9 1519.4 nm  0.840 s
+step 3 DM 0: 43 actuators clipped
+Step 3, DM 0: 1 actuators over ia limit (print will be disabled after 10 steps). Fix is success. after 2 trials
+Step     4: OL 1796.0 1511.3  OA 1571.3 1459.0 CL 1486.6 1374.3 nm  0.847 s
+step 4 DM 0: 24 actuators clipped
+Step 4, DM 0: 1 actuators over ia limit (print will be disabled after 10 steps). Fix is success. after 2 trials
+step 5 DM 0: 127 actuators clipped
+Step 5, DM 0: 7 actuators over ia limit (print will be disabled after 10 steps). Fix is success. after 2 trials
+Step     6: OL 1823.7 1542.0  OA  795.7  732.2 CL  780.2  672.1 nm  0.792 s
+step 6 DM 0: 81 actuators clipped
+Step 6, DM 0: 7 actuators over ia limit (print will be disabled after 10 steps). Fix is success. after 2 trials
+step 7 DM 0: 130 actuators clipped
+Step 7, DM 0: 7 actuators over ia limit (print will be disabled after 10 steps). Fix is success. after 2 trials
+Step     8: OL 1871.1 1596.1  OA  410.0   97.2 CL  579.8  320.5 nm  0.841 s
+step 8 DM 0: 25 actuators clipped
+Step 8, DM 0: 7 actuators over ia limit (print will be disabled after 10 steps). Fix is success. after 2 trials
+step 9 DM 0: 98 actuators clipped
+Step 9, DM 0: 9 actuators over ia limit (print will be disabled after 10 steps). Fix is success. after 2 trials
+Step    10: OL 1909.9 1639.8  OA  549.7  381.8 CL  735.3  570.3 nm  0.845 s
+Step    12: OL 1916.6 1645.9  OA  812.4  717.2 CL  948.3  843.7 nm  0.861 s
+Step    14: OL 1893.9 1617.4  OA  991.0  929.4 CL 1107.7 1026.6 nm  0.972 s
+Step    16: OL 1868.2 1585.3  OA 1148.7 1099.6 CL 1249.8 1174.4 nm  0.783 s
+Step    18: OL 1868.1 1583.2  OA 1243.8 1204.4 CL 1351.4 1279.6 nm  0.894 s
+Step    20: OL 1905.3 1624.9  OA 1207.7 1169.9 CL 1335.9 1259.2 nm  7.357 s
+Step    21: OL 1934.8 1658.8  OA 1200.4 1161.5 CL 1341.5 1264.7 nm  7.258 s
+Step    22: OL 1967.6 1695.8  OA 1175.9 1136.0 CL 1324.2 1245.5 nm  7.471 s
+Step    23: OL 1997.9 1730.1  OA 1239.8 1197.7 CL 1376.3 1301.5 nm  7.531 s
+Step    24: OL 2021.5 1756.1  OA 1225.2 1182.5 CL 1365.2 1288.8 nm  7.821 s
+Step    25: OL 2033.5 1769.4  OA 1283.0 1237.8 CL 1405.4 1330.5 nm  7.564 s
+Step    26: OL 2033.4 1768.0  OA 1288.8 1243.5 CL 1407.1 1331.5 nm  7.783 s
+
+Signal caught: Interrupt: 2 (2)
+maos_signal_handler: Interrupt: 2 (2)
+Will exit after finishing current time step
+Step    27: OL 2021.1 1753.4  OA 1407.8 1363.1 CL 1506.4 1437.0 nm  7.446 s
+Mean: 1338.72 1263.63 442.05  nm.
+
+*** Simulation Terminated at 2024/11/12 17:29:46 in elisa. ***
+

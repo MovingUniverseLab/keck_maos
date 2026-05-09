@@ -24,3 +24,8 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Big files
+*/A_*/*.fits
+*/A_*/*.bin
+*/A_*/extra
