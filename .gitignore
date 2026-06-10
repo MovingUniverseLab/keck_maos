@@ -29,3 +29,15 @@ Temporary Items
 */A_*/*.fits
 */A_*/*.bin
 */A_*/extra
+
+# Jupyter stuff
+*.ipynb_checkpoints
+
+# Outputs
+base/A_*/
+base_2024/
+base_2024_lianqi/
+base_2026/
+base_2026_lianqi/
+kapa/A_*/
+TRICK_or_TREAT/
