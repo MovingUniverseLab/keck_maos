@@ -1,0 +1,25 @@
+This "new base" configuration is the Keck LGS AO as of June 2026, modified from the description below. I've tried to keep both configurations
+and label them accordingly as new and old (or pre & post-KAPA)
+- The LGS WFS has been updated to the measured parameters for the OCAM2K camera installed with KAPA in ~Nov 2024
+- The LGS WFS runs at 500Hz
+- KAPA lets you run with a 4 LGS constellation on the OCAM2K at the cost of 1/4th or 1/8th the laser power per LGS
+- STRAP, the tip-tilt WFS runs at 1kHz
+- TRICK is a new near-IR tip-tilt WFS which I have configured to run in 4x4 mode at 1kHz 
+- TRICK operates either at H or K band, whichever is complementary to the band the science camera is using (evl.wvl in H or K band should be the opposite)
+- good_powfs_common.conf & good_powfs_none.conf have been added locally. MAOS will check for files in the maos config directory before checking locally, so 
+  these need to be unique names (hence the "good" prefix instead of just including powfs_none.conf)
+- The tip-tilt WFS signal levels are set based on a NEA of 1.93 on STRAP for 472Hz from old base. This corresponds with an NGS star which is 8.09 mag
+  NOT the R=10 mag shown below. See find_keck_nea_photons_params.ipynb in this folder which goes through the fit using paarti.utils.maos_utils.keck_nea_photons.
+  We assume that a star whichi s 8.09 mag in the R band seen by STRAP with a center of 720nm is also seen at 8.09 mag in the H and K band by TRICK-H & -K
+
+OLD BASE:
+This "base" configuration is the Keck LGS AO <2023 hardware with the following observing situation:
+
+- Optical STRAP for tip-tilt sensing
+- NGS (TT and LBWFS) star is engineering star:  R=10 mag, on-axis
+- Zenith angle is 30 deg.
+- Running AO system at 472 Hz (high-order LGSWFS and TT)
+- 130 nm of Keck primary segment piston error (via ncpa surf parameter)
+- extra tip-tilt blur from wind-shake and jitter (via ncpa temporal PSD parameter)
+
+

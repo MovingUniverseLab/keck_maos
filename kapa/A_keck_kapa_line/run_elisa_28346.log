@@ -1,0 +1,48 @@
+Warning(sock.c:517): connect locally (/Users/jlu/.aos/tmp/elisa/scheduler) failed: No such file or directory. 
+Warning(daemonize.c:231): Error redirect stdout
+Warning(daemonize.c:232): Error redirect stderr
+/System/Volumes/Data/mnt/g/lu/scratch/jlu/work/ao/keck/maos/keck/k1_lgs_ltao_kapa/maos -o A_keck_kapa_line A_keck_kapa_line.conf 
+Output folder is 'A_keck_kapa_line'.
+SRC: /Users/jlu/mycode/maos v2.9 56b82507 2024-04-25 12:00:56 -0700
+BUILT: /Users/jlu/mycode/maos/build by CLANG (v14.0.0) on 2024/05/06 12:01:36 CPU(F64,+O3) w/o CUDA
+Launched at 2024/11/10 15:29:23 in elisa with PID 28346.
+The web based job monitor can be accessed at http://localhost:12158
+Main config file is default.conf
+loaded 144 (144 new) records from '/Users/jlu/mycode/maos/config/maos/sim.conf'
+loaded   2 (  2 new) records from '/Users/jlu/mycode/maos/config/maos/dm_dual.conf'
+loaded   5 (  5 new) records from '/Users/jlu/mycode/maos/config/maos/atm/atm_mk13n50p.conf'
+loaded   4 (  4 new) records from '/Users/jlu/mycode/maos/config/maos/evl_sq34.conf'
+loaded   4 (  4 new) records from '/Users/jlu/mycode/maos/config/maos/fit_sq34.conf'
+loaded   0 (  0 new) records from '/Users/jlu/mycode/maos/config/maos/fov_sq34.conf'
+loaded  71 ( 71 new) records from '/Users/jlu/mycode/maos/config/maos/recon.conf'
+loaded  80 ( 80 new) records from '/Users/jlu/mycode/maos/config/maos/dbg.conf'
+loaded   0 (  0 new) records from '/Users/jlu/mycode/maos/config/maos/mcao_base.conf'
+loaded  81 ( 81 new) records from '/Users/jlu/mycode/maos/config/maos/powfs_common.conf'
+loaded  44 ( 38 new) records from '/Users/jlu/mycode/maos/config/maos/powfs_none.conf'
+loaded  38 (  0 new) records from '/Users/jlu/mycode/maos/config/maos/powfs_shlgs.conf'
+loaded  38 (  0 new) records from '/Users/jlu/mycode/maos/config/maos/powfs_shngs.conf'
+loaded  34 (  0 new) records from '/Users/jlu/mycode/maos/config/maos/powfs_shtt.conf'
+loaded   8 (  0 new) records from '/Users/jlu/mycode/maos/config/maos/powfs_shttf.conf'
+loaded  38 (  0 new) records from '/Users/jlu/mycode/maos/config/maos/powfs_shngs.conf'
+loaded  34 (  0 new) records from '/Users/jlu/mycode/maos/config/maos/powfs_shtt.conf'
+loaded   0 (  0 new) records from '/Users/jlu/mycode/maos/config/maos/wfs_lgs_ttf_tt.conf'
+loaded   0 (  0 new) records from '/Users/jlu/mycode/maos/config/maos/mcao_lgs.conf'
+loaded   0 (  0 new) records from '/Users/jlu/mycode/maos/config/maos/default.conf'
+Replacing all existing input
+loaded 133 (133 new) records from '/System/Volumes/Data/mnt/g/lu/scratch/jlu/work/ao/keck/maos/keck/k1_lgs_ltao_kapa/keck_sim.conf'
+loaded  19 ( 19 new) records from '/System/Volumes/Data/mnt/g/lu/scratch/jlu/work/ao/keck/maos/keck/k1_lgs_ltao_kapa/keck_dm_single.conf'
+loaded   8 (  6 new) records from '/System/Volumes/Data/mnt/g/lu/scratch/jlu/work/ao/keck/maos/keck/k1_lgs_ltao_kapa/atm_mk13n50p_ground_detail.conf'
+loaded  81 ( 74 new) records from '/Users/jlu/mycode/maos/config/maos/powfs_common.conf'
+loaded  44 ( 38 new) records from '/Users/jlu/mycode/maos/config/maos/powfs_none.conf'
+loaded  42 (  0 new) records from '/System/Volumes/Data/mnt/g/lu/scratch/jlu/work/ao/keck/maos/keck/k1_lgs_ltao_kapa/keck_shwfs_lgs.conf'
+loaded  44 (  0 new) records from '/System/Volumes/Data/mnt/g/lu/scratch/jlu/work/ao/keck/maos/keck/k1_lgs_ltao_kapa/keck_shwfs_ttf_strap.conf'
+loaded  44 (  0 new) records from '/System/Volumes/Data/mnt/g/lu/scratch/jlu/work/ao/keck/maos/keck/k1_lgs_ltao_kapa/keck_shwfs_twfs_lbwfs.conf'
+loaded   0 (  0 new) records from '/System/Volumes/Data/mnt/g/lu/scratch/jlu/work/ao/keck/maos/keck/k1_lgs_ltao_kapa/keck_wfs_lgs_strap_lbwfs.conf'
+loaded  71 ( 71 new) records from '/Users/jlu/mycode/maos/config/maos/recon.conf'
+loaded  80 ( 80 new) records from '/Users/jlu/mycode/maos/config/maos/dbg.conf'
+loaded   4 (  4 new) records from '/Users/jlu/mycode/maos/config/maos/fit_oa.conf'
+loaded  11 (  4 new) records from '/System/Volumes/Data/mnt/g/lu/scratch/jlu/work/ao/keck/maos/keck/k1_lgs_ltao_kapa/A_keck_kapa_line.conf'
+loaded   0 (  0 new) records from 'command line'
+Error(readstr.c:452): powfs.misregx=[0 0.42]: require 3 numbers, but got 2
+
+Signal caught: User defined signal 2: 31 (31)

@@ -1,0 +1,44 @@
+/System/Volumes/Data/mnt/g3/scratch/nstieg/work/ao/keck/maos/keck_maos/k1_lgs_ltao_kapa/maos -c A_keck_ltao_lgs_nightly.conf -o A_keck_ltao_lgs_nightly -O 
+Output folder is 'A_keck_ltao_lgs_nightly'.
+SRC: /g/lu/code/maos v3.4 fe330bca1 2026-01-20 08:38:11 -0800
+BUILT: /g/lu/code/maos/build by CLANG (v14.0.0) on 2026/01/31 02:14:05 CPU(F64,+O3) w/o CUDA
+Launched at 2026/02/16 13:10:57 in spray with PID 28395.
+The browser based job monitor and drawdaemon can be accessed at http://localhost:10074
+Loaded configurations:
+/System/Volumes/Data/mnt/g3/scratch/nstieg/work/ao/keck/maos/keck_maos/k1_lgs_ltao_kapa/A_keck_ltao_lgs_nightly.conf
+|___/System/Volumes/Data/mnt/g3/scratch/nstieg/work/ao/keck/maos/keck_maos/k1_lgs_ltao_kapa/keck_sim.conf
+|___/System/Volumes/Data/mnt/g3/scratch/nstieg/work/ao/keck/maos/keck_maos/k1_lgs_ltao_kapa/keck_dm_single.conf
+Warning(readcfg.c:440): dm.vmisreg is no longer needed (removed).
+|___/System/Volumes/Data/mnt/g3/scratch/nstieg/work/ao/keck/maos/keck_maos/k1_lgs_ltao_kapa/atm_mk13n50p_ground_detail.conf
+|___/System/Volumes/Data/mnt/g3/scratch/nstieg/work/ao/keck/maos/keck_maos/k1_lgs_ltao_kapa/keck_wfs_lgs_strap_lbwfs.conf
+    |___/g/lu/code/maos/config/maos/powfs_none.conf
+        |___/g/lu/code/maos/config/maos/powfs_common.conf
+    |___/System/Volumes/Data/mnt/g3/scratch/nstieg/work/ao/keck/maos/keck_maos/k1_lgs_ltao_kapa/keck_shwfs_lgs.conf
+    |___/System/Volumes/Data/mnt/g3/scratch/nstieg/work/ao/keck/maos/keck_maos/k1_lgs_ltao_kapa/keck_shwfs_ttf_strap.conf
+    |___/System/Volumes/Data/mnt/g3/scratch/nstieg/work/ao/keck/maos/keck_maos/k1_lgs_ltao_kapa/keck_shwfs_twfs_lbwfs.conf
+|___/g/lu/code/maos/config/maos/recon.conf
+|___/g/lu/code/maos/config/maos/dbg.conf
+|___/g/lu/code/maos/config/maos/fit_oa.conf
+Reading aperture amplitude map from KECK.fits
+Warning(readcfg.c:564): aper.misregu not found
+Warning(readcfg.c:564): atm.dtrat not found
+Warning(readcfg.c:564): atm.interp not found
+Warning(readcfg.c:564): dm.nmod not found
+Warning(readstr.c:546): powfs.siglev=[960 150 64529.03 147933.02]: need 3, but got 4 values, ignore the rest.
+Warning(readstr.c:546): powfs.misregx=[0 0 0 0.42]: need 3, but got 4 values, ignore the rest.
+Warning(readstr.c:546): powfs.misregy=[0 0 0 0.42]: need 3, but got 4 values, ignore the rest.
+Warning(readstr.c:546): powfs.bkgrnd=[0 6 8.273 25.25]: need 3, but got 4 values, ignore the rest.
+Warning(readstr.c:546): powfs.pixblur=[0.3 0.38 0 0]: need 3, but got 4 values, ignore the rest.
+Warning(readstr.c:546): powfs.dtrat=[1 2 1 1000]: need 3, but got 4 values, ignore the rest.
+Adjust Sodium LGS range 90000 by telescope altitude 4145m.
+/System/Volumes/Data/mnt/g3/scratch/nstieg/work/ao/keck/maos/keck_maos/k1_lgs_ltao_kapa/keck_llt_ltao.conf loaded with prefix powfs0_
+/System/Volumes/Data/mnt/g3/scratch/nstieg/work/ao/keck/maos/keck_maos/k1_lgs_ltao_kapa/keck_llt_CL.conf loaded with prefix powfs0_
+powfs0: Adjusting dx from 0.015625 to 0.0156389. 
+powfs2: Adjusting dx from 0.03125 to 0.0312778. 
+Warning(readcfg.c:564): evl.split not found
+There are 1 valid simulation seeds:  1
+Zenith angle is 30 degree.
+Error(parms.c:2158): powfs[2].dtrat=1 is invalid: truth wfs must have dtrat>1
+
+Signal caught: User defined signal 2: 31 (31)
+maos_signal_handler: User defined signal 2: 31 (31)

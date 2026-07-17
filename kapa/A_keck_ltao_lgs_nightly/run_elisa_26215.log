@@ -1,0 +1,29 @@
+/System/Volumes/Data/mnt/g/lu/scratch/jlu/work/ao/keck/maos/keck/k1_lgs_ltao_kapa/maos -o A_keck_ltao_lgs_nightly -c A_keck_ltao_lgs_nightly.conf 
+Output folder is 'A_keck_ltao_lgs_nightly'. 8 threads
+SRC: /System/Volumes/Data/mnt/g/lu/code/maos v2.8.0 14e8f856 2023-03-19 15:20:01 -0700
+BUILT: /System/Volumes/Data/mnt/g/lu/code/maos by CLANG (14.0.0) on 2023/04/11 09:33:56 CPU(double) -CUDA +optimization.
+Launched at 2023/04/18 14:33:34 in elisa with PID 26215.
+The web based job monitor can be accessed at http://localhost:10100
+Main config file is A_keck_ltao_lgs_nightly.conf
+loaded 130 (130 new) records from '/System/Volumes/Data/mnt/g/lu/scratch/jlu/work/ao/keck/maos/keck/k1_lgs_ltao_kapa/./keck_sim.conf'
+loaded  18 ( 18 new) records from '/System/Volumes/Data/mnt/g/lu/scratch/jlu/work/ao/keck/maos/keck/k1_lgs_ltao_kapa/./keck_dm_single.conf'
+loaded   6 (  6 new) records from '/System/Volumes/Data/mnt/g/lu/scratch/jlu/work/ao/keck/maos/keck/k1_lgs_ltao_kapa/./atm_mk13n50p_ground_detail.conf'
+loaded  72 ( 72 new) records from '/System/Volumes/Data/mnt/g/lu/code/maos/config/maos/powfs_common.conf'
+loaded  42 ( 38 new) records from '/System/Volumes/Data/mnt/g/lu/scratch/jlu/work/ao/keck/maos/keck/k1_lgs_ltao_kapa/./powfs_none.conf'
+loaded  42 (  0 new) records from '/System/Volumes/Data/mnt/g/lu/scratch/jlu/work/ao/keck/maos/keck/k1_lgs_ltao_kapa/./keck_shwfs_lgs.conf'
+loaded  42 (  0 new) records from '/System/Volumes/Data/mnt/g/lu/scratch/jlu/work/ao/keck/maos/keck/k1_lgs_ltao_kapa/./keck_shwfs_ttf_strap.conf'
+loaded   0 (  0 new) records from '/System/Volumes/Data/mnt/g/lu/scratch/jlu/work/ao/keck/maos/keck/k1_lgs_ltao_kapa/./keck_wfs_lgs_strap_lbwfs.conf'
+loaded  71 ( 71 new) records from '/System/Volumes/Data/mnt/g/lu/code/maos/config/maos/recon.conf'
+loaded  88 ( 88 new) records from '/System/Volumes/Data/mnt/g/lu/code/maos/config/maos/dbg.conf'
+loaded   4 (  4 new) records from '/System/Volumes/Data/mnt/g/lu/code/maos/config/maos/fit_oa.conf'
+loaded  13 (  4 new) records from '/System/Volumes/Data/mnt/g/lu/scratch/jlu/work/ao/keck/maos/keck/k1_lgs_ltao_kapa/./A_keck_ltao_lgs_nightly.conf'
+loaded   0 (  0 new) records from 'command line'
+loaded  17 ( 17 new) records from '/System/Volumes/Data/mnt/g/lu/scratch/jlu/work/ao/keck/maos/keck/k1_lgs_ltao_kapa/./keck_llt_ltao.conf'
+Used 448 of 448 supplied keys
+Adjust LGS range by telescope altitude 4145m.
+Zenith angle is 30 degree.
+    Scaling turbulence height and LGS hs by sec(za).
+    Scaling r0 by cos(za)^(3/5).
+    Scaling wind speed and LGS signal level by cos(za).
+Error(parms.c:1882): # of llts should either be 1 or match nwfs for this powfs
+Signal caught: User defined signal 2: 31 (31)

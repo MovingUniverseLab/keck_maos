@@ -1,0 +1,298 @@
+/System/Volumes/Data/mnt/g3/scratch/nstieg/work/ao/keck/maos/keck_maos/base/maos -c A_keck_scao_lgs.conf -o A_keck_scao_lgs -O 
+Output folder is 'A_keck_scao_lgs'.
+SRC: /g/lu/code/maos v3.4 fe330bca1 2026-01-20 08:38:11 -0800
+BUILT: /g/lu/code/maos/build by CLANG (v14.0.0) on 2026/01/31 02:14:05 CPU(F64,+O3) w/o CUDA
+Launched at 2026/02/16 12:42:46 in spray with PID 27733.
+The browser based job monitor and drawdaemon can be accessed at http://localhost:10074
+Loaded configurations:
+/System/Volumes/Data/mnt/g3/scratch/nstieg/work/ao/keck/maos/keck_maos/base/A_keck_scao_lgs.conf
+Warning(path.c:48): Path not found: path=/System/Volumes/Data/mnt/g3/scratch/nstieg/work/ao/keck/maos/keck_maos/base/bin; abspath=/System/Volumes/Data/mnt/g3/scratch/nstieg/work/ao/keck/maos/keck_maos/base/bin; Ignored.
+Warning(path.c:48): Path not found: path=/System/Volumes/Data/mnt/g3/scratch/nstieg/work/ao/keck/maos/keck_maos/base/atm; abspath=/System/Volumes/Data/mnt/g3/scratch/nstieg/work/ao/keck/maos/keck_maos/base/atm; Ignored.
+|___/System/Volumes/Data/mnt/g3/scratch/nstieg/work/ao/keck/maos/keck_maos/base/keck_sim.conf
+|___/System/Volumes/Data/mnt/g3/scratch/nstieg/work/ao/keck/maos/keck_maos/base/keck_dm_single.conf
+Warning(readcfg.c:440): dm.vmisreg is no longer needed (removed).
+|___/System/Volumes/Data/mnt/g3/scratch/nstieg/work/ao/keck/maos/keck_maos/base/atm_mk13n50p_ground_detail.conf
+|___/System/Volumes/Data/mnt/g3/scratch/nstieg/work/ao/keck/maos/keck_maos/base/keck_wfs_lgs_strap_lbwfs.conf
+    |___/u/nstieg/work/ao/keck/maos/keck_maos/base/powfs_none.conf
+        |___/u/nstieg/work/ao/keck/maos/keck_maos/base/powfs_common.conf
+    |___/System/Volumes/Data/mnt/g3/scratch/nstieg/work/ao/keck/maos/keck_maos/base/keck_shwfs_lgs.conf
+    |___/System/Volumes/Data/mnt/g3/scratch/nstieg/work/ao/keck/maos/keck_maos/base/keck_shwfs_ttf_strap.conf
+    |___/System/Volumes/Data/mnt/g3/scratch/nstieg/work/ao/keck/maos/keck_maos/base/keck_shwfs_twfs_lbwfs.conf
+|___/g/lu/code/maos/config/maos/recon.conf
+|___/g/lu/code/maos/config/maos/dbg.conf
+|___/g/lu/code/maos/config/maos/fit_oa.conf
+Reading aperture amplitude map from KECK.fits
+Warning(readcfg.c:564): aper.misregu not found
+Warning(readcfg.c:564): atm.dtrat not found
+Warning(readcfg.c:564): atm.interp not found
+Warning(readcfg.c:564): dm.nmod not found
+Warning(readcfg.c:564): powfs.frs not found
+Adjust Sodium LGS range 90000 by telescope altitude 4145m.
+/System/Volumes/Data/mnt/g3/scratch/nstieg/work/ao/keck/maos/keck_maos/base/keck_llt_CL.conf loaded with prefix powfs0_
+powfs0: Adjusting dx from 0.015625 to 0.0156389. 
+powfs2: Adjusting dx from 0.03125 to 0.0312778. 
+Warning(readcfg.c:564): sim.bzero not found
+Warning(readcfg.c:564): evl.split not found
+There are 1 valid simulation seeds:  1
+Zenith angle is 30 degree.
+Output PSF for 1 directions
+Aperture is 11 m with sampling 1/32 m
+Turbulence at 30 degree zenith angle: r0=0.128424m, L0=30m, 14 layers.
+    Greenwood freq is 25.1Hz, anisoplanatic angle is 1.58 as
+    Sampled 4096x4096 at 1/64m. wind dir is randomized.
+    layer  0: height is      0 m, weight is 0.302, wind speed is  4.8 m/s
+    layer  1: height is     17 m, weight is 0.154, wind speed is  5.0 m/s
+    layer  2: height is     35 m, weight is 0.041, wind speed is  5.4 m/s
+    layer  3: height is     52 m, weight is 0.002, wind speed is  6.6 m/s
+    layer  4: height is    139 m, weight is 0.021, wind speed is  6.1 m/s
+    layer  5: height is    231 m, weight is 0.010, wind speed is  6.1 m/s
+    layer  6: height is    323 m, weight is 0.008, wind speed is  6.1 m/s
+    layer  7: height is    416 m, weight is 0.005, wind speed is  6.1 m/s
+    layer  8: height is    508 m, weight is 0.001, wind speed is  6.1 m/s
+    layer  9: height is    932 m, weight is 0.107, wind speed is  5.6 m/s
+    layer 10: height is   5022 m, weight is 0.144, wind speed is 11.1 m/s
+    layer 11: height is   9238 m, weight is 0.093, wind speed is 19.1 m/s
+    layer 12: height is  13856 m, weight is 0.075, wind speed is  8.2 m/s
+    layer 13: height is  22518 m, weight is 0.036, wind speed is  4.8 m/s
+Reconstruction: r0=0.128424m L0=30m. 14 layers. use cone coordinate.
+    layer  0: height is      0 m, weight is 0.302
+    layer  1: height is     17 m, weight is 0.154
+    layer  2: height is     35 m, weight is 0.041
+    layer  3: height is     52 m, weight is 0.002
+    layer  4: height is    139 m, weight is 0.021
+    layer  5: height is    231 m, weight is 0.010
+    layer  6: height is    323 m, weight is 0.008
+    layer  7: height is    416 m, weight is 0.005
+    layer  8: height is    508 m, weight is 0.001
+    layer  9: height is    932 m, weight is 0.107
+    layer 10: height is   5022 m, weight is 0.144
+    layer 11: height is   9238 m, weight is 0.093
+    layer 12: height is  13856 m, weight is 0.075
+    layer 13: height is  22518 m, weight is 0.036
+There are 3 powfs
+  powfs0: Order 20, LGS at 99.1 km. Sampling 1/63.9432 m. Thres 30%.
+    CCD image is 4x4 @ 3000x3000 mas, blur 27% (sigma), 472Hz, wvl: [ 5.89e-07]
+    Gtilt in reconstruction. Physical optics start at 0 with 'matched filter' (noisy)
+  powfs1: Order  1, NGS at inf km. Sampling 1/16 m. Thres 30%.
+    Gtilt in reconstruction. Geomtric optics start at 2 with ztilt (noisy)
+  powfs2: Order 20, NGS at inf km. Sampling 1/31.9716 m. Thres 50%.
+    Gtilt in reconstruction. (noisy)
+There are 3 wfs
+    wfs 0: powfs 0, at (   0.00,    0.00) (  0.0,    0°) arcsec,  99 km, siglev is  1099.9 bkgrnd is 1.5
+    wfs 1: powfs 1, at (   0.00,    0.00) (  0.0,    0°) arcsec, inf km, siglev is 64529.0 bkgrnd is 8.273
+    wfs 2: powfs 2, at (   0.00,    0.00) (  0.0,    0°) arcsec, inf km, siglev is 147933020.0 bkgrnd is 25.25
+There are 1 DMs
+    DM 0: at  0.0 km, pitch 0.563 m, offset 0.0, 0.223 inter-actuator coupling, 2 micron stroke, 1.2 micron inter-actuator stroke.
+Tomography is using CG16 with Fourier Domain preconditioner, integrated tomo.
+    low rank term includes tip/tilt (L/R) for high order WFS.
+DM Fitting is using CG10 with no preconditioner
+There are 1 DM fitting directions
+    Fit 0: weight is 1.000, at (   0.00,    0.00) arcsec
+There are 1 evaluation directions at sampling 1/32 m.
+    Evl 0: weight is 1.000, at (   0.00,    0.00) arcsec
+Simulation start at step 0, end at step 800, with time step 1/472s, close loop.
+After setup_parms: 10.2 MiB.
+
+*** Preparation started at 2026/02/16 12:42:46 in spray. ***
+
+Using thread pool with 8 threads
+iwvl 0: Science PSF is using grid size of 700. The PSF will sum to 6.57979009544699
+After setup_aper: 15.9 MiB.
+
+Setting up powfs 0 geometric optics parameters
+
+There are 248 valid subaperture.
+
+Setting up powfs 1 geometric optics parameters
+
+There are 1 valid subaperture.
+
+Setting up powfs 2 geometric optics parameters
+
+There are 237 valid subaperture.
+After setup_powfs_init: 55.5 MiB.
+
+Setting up reconstruction geometry.
+
+PLOC is 43x43, with sampling of 0.28m (not square)
+    DM 0: grid is 23 x 23, 437 points
+FLOC is 43x43, with sampling of 0.28m (not square)
+Tomography grid xloc is not square:
+    layer 0: grid is   64x  64 @ 0.281 m, offset is 0.00,  1481 points
+    layer 1: grid is   64x  64 @ 0.281 m, offset is 0.50,  1460 points
+    layer 2: grid is   64x  64 @ 0.281 m, offset is 0.33,  1475 points
+    layer 3: grid is   64x  64 @ 0.281 m, offset is 0.25,  1479 points
+    layer 4: grid is   64x  64 @ 0.281 m, offset is 0.20,  1483 points
+    layer 5: grid is   64x  64 @ 0.281 m, offset is 0.17,  1483 points
+    layer 6: grid is   64x  64 @ 0.281 m, offset is 0.14,  1487 points
+    layer 7: grid is   64x  64 @ 0.280 m, offset is 0.12,  1489 points
+    layer 8: grid is   64x  64 @ 0.280 m, offset is 0.11,  1489 points
+    layer 9: grid is   64x  64 @ 0.279 m, offset is 0.10,  1501 points
+    layer 10: grid is   64x  64 @ 0.267 m, offset is 0.09,  1633 points
+    layer 11: grid is   64x  64 @ 0.255 m, offset is 0.08,  1779 points
+    layer 12: grid is   64x  64 @ 0.242 m, offset is 0.08,  1963 points
+    layer 13: grid is   64x  64 @ 0.218 m, offset is 0.07,  2421 points
+After setup_recon_prep: 85.6 MiB.
+Setting up surface OPD
+
+Surface 0:
+Does not contain SURFEVL. Assume it covers all evaluation directions.
+Does not contain SURFWFS, Assume it covers all WFS.
+After setup_surf: 91.7 MiB.
+
+Setting up powfs 0 physical optics parameters
+
+OTF dimension is 112x112 (calculated)
+There is NCPA bias. notf=1.
+There is no bias. notf=1.
+Uplink FWHM (illt 0, iwvl 0) is 0.575518"
+Downlink FWHM (illt 0, iwvl 0) is 0.670978"
+Generating matched filter for powfs 0
+sa index   location       noise equivalent angle
+     118: (  1.1,  -0.6) m, ( 49.55,  49.49) mas
+     120: (  2.3,  -0.6) m, ( 50.12,  49.81) mas
+     122: (  3.4,  -0.6) m, ( 50.13,  49.00) mas
+     124: (  4.5,  -0.6) m, ( 50.83,  48.97) mas
+After setup_powfs: 377.7 MiB.
+
+Setting up reconstructor
+
+Recon NEA: cmf(50.35) geom(2.22) geom(0.04)  mas
+Compute control matrix parameters.
+Adding piston constraint to fit matrix
+After setup_recon: 685.2 MiB.
+After setup: 723.4 MiB.
+
+*** Simulation started at 2026/02/16 12:42:53 in spray. ***
+
+Running seed 1
+Converting windshake PSD to time series.
+DM cache with grid 1/7.1048m
+After genatm: 1082.0 MiB.
+Step     #  Open Loop  PR TT  On Axis PR    TT Field  PR     TT  Timing 
+Step     0: OL 1211.5  917.2  OA 1211.5  917.2 CL 1211.5  917.2 nm  0.090s
+Step     1: OL 1205.1  906.6  OA 1205.1  906.6 CL 1205.1  906.6 nm  0.171s
+step 1 DM 0: 32 actuators clipped
+Step 1, DM 0: 2 actuators over ia limit (print will be disabled after 10 steps). Fix is success. after 2 trials
+Step     2: OL 1206.8  906.5  OA  888.1  729.5 CL  888.1  729.5 nm  0.170s
+step 2 DM 0: 103 actuators clipped
+Step 2, DM 0: 13 actuators over ia limit (print will be disabled after 10 steps). Fix is success. after 2 trials
+Step     3: OL 1215.4  915.4  OA  626.7  562.3 CL  626.7  562.3 nm  0.168s
+step 3 DM 0: 118 actuators clipped
+Step 3, DM 0: 18 actuators over ia limit (print will be disabled after 10 steps). Fix is success. after 2 trials
+step 4 DM 0: 46 actuators clipped
+Step 4, DM 0: 4 actuators over ia limit (print will be disabled after 10 steps). Fix is success. after 2 trials
+step 5 DM 0: 23 actuators clipped
+Step 5, DM 0: 1 actuators over ia limit (print will be disabled after 10 steps). Fix is success. after 2 trials
+step 6 DM 0: 21 actuators clipped
+Step 6, DM 0: 1 actuators over ia limit (print will be disabled after 10 steps). Fix is success. after 2 trials
+step 7 DM 0: 21 actuators clipped
+Step 7, DM 0: 1 actuators over ia limit (print will be disabled after 10 steps). Fix is success. after 2 trials
+step 8 DM 0: 18 actuators clipped
+step 9 DM 0: 27 actuators clipped
+Step    10: OL 1252.1  943.8  OA  370.6  139.5 CL  370.6  139.5 nm  0.168s
+step 10 DM 0: 43 actuators clipped
+Step    20: OL 1304.5  980.0  OA  364.7  154.8 CL  364.7  154.8 nm  0.173s
+Step    30: OL 1339.5  999.6  OA  359.6   75.5 CL  359.6   75.5 nm  0.185s
+step 32 DM 0: 44 actuators clipped
+Step    40: OL 1284.5  914.2  OA  332.1  150.8 CL  332.1  150.8 nm  0.191s
+Step    50: OL 1401.7 1074.0  OA  316.1  134.2 CL  316.1  134.2 nm  0.194s
+Step    60: OL 1365.7 1030.8  OA  338.0  214.4 CL  338.0  214.4 nm  0.196s
+step 62 DM 0: 49 actuators clipped
+step 63 DM 0: 51 actuators clipped
+Step    70: OL 1369.5 1044.2  OA  277.5   90.7 CL  277.5   90.7 nm  0.198s
+Step    80: OL 1490.7 1205.2  OA  312.7  106.3 CL  312.7  106.3 nm  0.200s
+Step    90: OL 1476.5 1193.5  OA  355.6  193.7 CL  355.6  193.7 nm  0.201s
+step 97 DM 0: 54 actuators clipped
+step 98 DM 0: 56 actuators clipped
+Step   100: OL 1342.1 1028.7  OA  348.5   72.3 CL  348.5   72.3 nm  0.203s
+step 100 DM 0: 58 actuators clipped
+step 107 DM 0: 61 actuators clipped
+Step   110: OL 1537.7 1280.1  OA  539.6  379.3 CL  539.6  379.3 nm  0.204s
+Step   120: OL 1555.5 1306.7  OA  498.6  253.0 CL  498.6  253.0 nm  0.205s
+Step   130: OL 1350.6 1056.6  OA  483.8   95.8 CL  483.8   95.8 nm  0.205s
+Step   140: OL 1515.5 1253.9  OA  573.7  203.5 CL  573.7  203.5 nm  0.205s
+Step   150: OL 1464.7 1174.4  OA  586.5  159.8 CL  586.5  159.8 nm  0.206s
+Step   160: OL 1447.3 1128.2  OA  607.7  215.2 CL  607.7  215.2 nm  0.206s
+Step   170: OL 1523.2 1200.8  OA  545.7   75.3 CL  545.7   75.3 nm  0.207s
+Step   180: OL 1459.3 1093.3  OA  529.6  152.9 CL  529.6  152.9 nm  0.208s
+Step   190: OL 1516.5 1149.5  OA  531.6  117.9 CL  531.6  117.9 nm  0.208s
+Step   200: OL 1522.1 1142.3  OA  465.3   47.1 CL  465.3   47.1 nm  0.208s
+Step   210: OL 1543.5 1154.2  OA  536.7   86.0 CL  536.7   86.0 nm  0.209s
+Step   220: OL 1544.8 1144.3  OA  507.4   85.7 CL  507.4   85.7 nm  0.209s
+Step   230: OL 1562.3 1166.7  OA  510.7  225.6 CL  510.7  225.6 nm  0.209s
+Step   240: OL 1617.0 1244.4  OA  366.1   81.4 CL  366.1   81.4 nm  0.210s
+Step   250: OL 1595.2 1224.9  OA  328.2  102.9 CL  328.2  102.9 nm  0.210s
+Step   255 updated HO loop gain: 0.660->0.544 (256 points)
+Step   260: OL 1563.8 1187.6  OA  274.9   35.5 CL  274.9   35.5 nm  0.211s
+Step   270: OL 1650.9 1301.9  OA  291.3  125.5 CL  291.3  125.5 nm  0.212s
+Step   280: OL 1563.5 1191.5  OA  258.3   63.8 CL  258.3   63.8 nm  0.212s
+Step   290: OL 1668.4 1322.8  OA  368.5  225.2 CL  368.5  225.2 nm  0.212s
+Step   300: OL 1793.0 1470.9  OA  354.8  152.0 CL  354.8  152.0 nm  0.213s
+Step   310: OL 1675.0 1321.5  OA  320.7   84.3 CL  320.7   84.3 nm  0.213s
+Step   320: OL 1777.0 1445.1  OA  364.9  184.3 CL  364.9  184.3 nm  0.214s
+Step   330: OL 1830.6 1500.2  OA  343.3   70.3 CL  343.3   70.3 nm  0.214s
+Step   340: OL 1859.6 1524.9  OA  363.1   70.6 CL  363.1   70.6 nm  0.215s
+Step   350: OL 1935.2 1615.1  OA  410.0  123.3 CL  410.0  123.3 nm  0.215s
+Step   360: OL 1891.4 1569.5  OA  435.1   66.7 CL  435.1   66.7 nm  0.215s
+Step   370: OL 2089.9 1810.6  OA  479.0  129.3 CL  479.0  129.3 nm  0.215s
+Step   380: OL 2203.5 1944.9  OA  499.5  216.3 CL  499.5  216.3 nm  0.215s
+Step   390: OL 2154.4 1888.8  OA  517.3  124.7 CL  517.3  124.7 nm  0.215s
+Step   400: OL 2278.7 2023.9  OA  548.9   47.7 CL  548.9   47.7 nm  0.216s
+Step   410: OL 2285.0 2020.7  OA  640.3   35.4 CL  640.3   35.4 nm  0.216s
+step 413 DM 0: 65 actuators clipped
+step 414 DM 0: 72 actuators clipped
+Step   420: OL 2343.9 2073.9  OA  701.2  119.8 CL  701.2  119.8 nm  0.216s
+step 429 DM 0: 74 actuators clipped
+Step   430: OL 2267.5 1971.8  OA  739.7  100.7 CL  739.7  100.7 nm  0.216s
+step 431 DM 0: 75 actuators clipped
+Step   440: OL 2227.1 1907.8  OA  751.2  142.2 CL  751.2  142.2 nm  0.216s
+step 442 DM 0: 76 actuators clipped
+step 445 DM 0: 77 actuators clipped
+Step   450: OL 2253.9 1920.3  OA  713.1  135.3 CL  713.1  135.3 nm  0.216s
+step 452 DM 0: 78 actuators clipped
+Step   460: OL 2209.9 1855.8  OA  697.5  146.6 CL  697.5  146.6 nm  0.216s
+Step   470: OL 2161.4 1794.4  OA  658.8  110.3 CL  658.8  110.3 nm  0.217s
+Step   480: OL 2167.3 1806.0  OA  622.1  203.3 CL  622.1  203.3 nm  0.217s
+Step   490: OL 2177.3 1828.1  OA  550.2   72.9 CL  550.2   72.9 nm  0.217s
+Step   500: OL 2006.1 1629.8  OA  537.1   57.3 CL  537.1   57.3 nm  0.217s
+step 500 DM 0: 80 actuators clipped
+step 502 DM 0: 83 actuators clipped
+step 504 DM 0: 91 actuators clipped
+Step   510: OL 1964.9 1590.2  OA  531.5  139.6 CL  531.5  139.6 nm  0.217s
+Step   511 updated HO loop gain: 0.544->0.486 (256 points)
+Step   520: OL 1969.5 1606.4  OA  499.4   73.9 CL  499.4   73.9 nm  0.218s
+Step   530: OL 1799.7 1405.6  OA  501.2   17.7 CL  501.2   17.7 nm  0.218s
+Step   540: OL 1730.8 1340.6  OA  539.7  273.2 CL  539.7  273.2 nm  0.218s
+Step   550: OL 1695.9 1331.7  OA  407.4   61.3 CL  407.4   61.3 nm  0.218s
+Step   560: OL 1529.2 1160.3  OA  367.7   99.9 CL  367.7   99.9 nm  0.218s
+Step   570: OL 1447.3 1099.8  OA  324.3  132.8 CL  324.3  132.8 nm  0.218s
+Step   580: OL 1376.9 1049.5  OA  302.7  103.9 CL  302.7  103.9 nm  0.218s
+Step   590: OL 1282.6  959.8  OA  270.1   31.1 CL  270.1   31.1 nm  0.219s
+Step   600: OL 1227.6  909.0  OA  295.1   90.7 CL  295.1   90.7 nm  0.219s
+Step   610: OL 1189.3  873.6  OA  268.5   22.8 CL  268.5   22.8 nm  0.219s
+Step   620: OL 1165.2  851.6  OA  232.9    6.9 CL  232.9    6.9 nm  0.219s
+Step   630: OL 1147.8  835.2  OA  256.1   46.9 CL  256.1   46.9 nm  0.219s
+Step   640: OL 1142.5  828.0  OA  234.5   77.9 CL  234.5   77.9 nm  0.219s
+Step   650: OL 1126.8  803.8  OA  261.5   51.2 CL  261.5   51.2 nm  0.219s
+Step   660: OL 1123.6  789.6  OA  285.7  118.0 CL  285.7  118.0 nm  0.219s
+Step   670: OL 1186.4  859.3  OA  309.8  161.6 CL  309.8  161.6 nm  0.220s
+Step   680: OL 1140.9  770.8  OA  285.6  134.5 CL  285.6  134.5 nm  0.220s
+Step   690: OL 1192.4  812.9  OA  277.2  131.2 CL  277.2  131.2 nm  0.220s
+Step   700: OL 1232.7  834.0  OA  320.2  197.6 CL  320.2  197.6 nm  0.220s
+Step   710: OL 1240.8  811.1  OA  270.1   23.3 CL  270.1   23.3 nm  0.220s
+Step   720: OL 1294.6  866.9  OA  331.8  181.8 CL  331.8  181.8 nm  0.220s
+Step   730: OL 1352.5  942.8  OA  282.2   29.8 CL  282.2   29.8 nm  0.220s
+Step   740: OL 1308.0  878.3  OA  324.3   67.8 CL  324.3   67.8 nm  0.220s
+Step   750: OL 1387.6  995.3  OA  305.0  106.1 CL  305.0  106.1 nm  0.220s
+Step   760: OL 1436.2 1057.0  OA  321.3  185.6 CL  321.3  185.6 nm  0.221s
+Step   767 updated HO loop gain: 0.486->0.457 (256 points)
+Step   770: OL 1436.8 1046.6  OA  305.6  162.0 CL  305.6  162.0 nm  0.221s
+Step   780: OL 1647.9 1309.7  OA  293.5   79.4 CL  293.5   79.4 nm  0.221s
+Step   790: OL 1581.5 1215.7  OA  329.1   28.1 CL  329.1   28.1 nm  0.221s
+Step 799: Output PSF (cumulative average).
+Step   799: OL 1750.2 1420.2  OA  362.1   81.9 CL  362.1   81.9 nm  0.222s
+Mean: 304.33 103.36 286.23  nm (100 points).
+
+*** Simulation Finished at 2026/02/16 12:46:00 in spray. ***
+
