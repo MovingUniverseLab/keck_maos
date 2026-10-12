@@ -1,0 +1,38 @@
+							      >	__default__	      #this file contains default setup.
+recon.alg       = 0 #0: MVR. 1: LSR			      |	recon.alg       = 1 #0: MVR. 1: LSR
+recon.mvm       = 0 #1: pre-assemble control matrix by solve  |	recon.mvm       = 0 #1: Assemble control matrix directly. 1: 
+							      >	recon.nmod      = 0 #Maxium number of modes in modal controll
+recon.psd       = 1 #1: compute PSDs of DM error signal avera |	recon.psd       = 1 #1: compute PSDs of DM error signal avera
+recon.psddtrat_hi=256 #how many time step to sample for DM PS |	recon.psddtrat_hi   =256 #how many time step to sample for DM
+recon.psddtrat_lo=ref:recon.psddtrat_hi #For low order PSD co |	recon.psddtrat_lo   =ref:recon.psddtrat_hi #For low order PSD
+recon.psdservo_gain=0.5 #Gain used to update servo gains      |	recon.psdservo_gain =0.5 #Gain used to update servo parameter
+recon.psdnseg   = 1 #how many overlapping partitions of the t |	recon.psdnseg       = 1 #how many overlapping partitions of t
+recon.petal     = 0 #1: enable petaling mode control with OIW |
+recon.petaldtrat= 50 #how many time steps to average for peta <
+recon.petalstep = 10 # simulation step to enable petal mode c <
+recon.petalnpsf = 16 #number of pixels (each dimension) used  <
+recon.petaltt   = 1 #whether include t/t modes in the reconst <
+tomo.ahst_wt    = 1 #weighting method to remove ngs modes fro |	tomo.ahst_wt    = 1 #weighting method to remove ngs modes fro
+                    #1: use NGS gradient reconstruction weigh |	                    #1: use NGS gradient reconstruction weigh
+					#2: use aperture eval |	                    #aperture evaluation weighting, 3: identi
+					#3: identity weightin <
+					#4: Remove 2nd order  <
+					#2: the 2nd and 3rd p |		      		#2: Like 1, but feed this mode to LGS
+							      <
+tomo.tikcr      = 1e-8 #tikhonov regularization. Necessary if |	tomo.tikcr      = 1e-9#tikhonov regularization. Necessary if 
+tomo.svdthres   = 1e-8 #threshold of SVD inversion.	      |	tomo.svdthres   = 1e-9 #threshold of SVD inversion. 1e-9 for 
+tomo.alg        = 1 #Tomography algorithm. 0: cholesky backsu |	tomo.alg        = 1 #Tomography algorithm. 0: cholesky backsu
+tomo.square     = 0 #1: using square grid in tomography (xloc |	tomo.square     = 0 #1: using square grid in tomography (xloc
+tomo.guard    = 1 #rings of padding in generating tomography  |	tomo.guard    = 1 #rings of padding in generating reconstruct
+tomo.splitlrt = 1 #>0: use low rank terms in left hand side ( |	tomo.splitlrt = 0 #1: use LGS low rank terms in split tomogra
+fit.guard     = 1 #rings of padding in generating DM fitting  <
+fit.actslave  = 1 #1: enable lsr.actthres, 2: also enable fit |	fit.actslave  = 0 #1: enable lsr.actthres, 2: also enable fit
+fit.alg       = -1 #Fitting algorithm. see tomo.alg. CBS work |	fit.alg       = -1 #Fitting algorithm. see tomo.alg. CBS work
+							      >
+recon.distortion_tel2wfs=[]				      |	recon.distortion_tel2wfs = []
+recon.distortion_dm2wfs=[]				      |	recon.distortion_dm2wfs  = []
+recon.distortion_dm2sci=[]				      |	recon.distortion_dm2sci  = []
+							      <
+recon.twfs_rmin=3    #minimum zernike order (inclusive)	      |	recon.twfs_rmin    = 3    #minimum zernike order (inclusive)
+recon.twfs_rmax=20   #maximum zernike order (inclusive)	      |	recon.twfs_rmax    = 20   #maximum zernike order (inclusive)
+recon.twfs_radonly=0 #1: radial only, 0: all modes	      |	recon.twfs_radonly = 0    #1: radial only, 0: all modes

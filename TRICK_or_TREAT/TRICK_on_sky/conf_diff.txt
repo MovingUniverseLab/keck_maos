@@ -1,0 +1,47 @@
+1c1
+< include=/System/Volumes/Data/mnt/g3/scratch/nstieg/work/ao/keck/maos/keck_maos/TRICK_or_TREAT/TRICK_on_sky/A_trick_keck_scao_lgs.conf
+---
+> include=/System/Volumes/Data/mnt/g3/scratch/nstieg/work/ao/keck/maos/keck_maos/TRICK_or_TREAT/TRICK/A_trick_keck_scao_lgs.conf
+9a10
+> #atm.ht=[0 15 30 45 120 200 280 360 440 807 4349 8000 12000 19501]
+15c16
+< atm.r0z=0.27204656
+---
+> #atm.r0z=0.14
+18a20,21
+> #atm.ws=[5.6 5.77 6.25 7.57 7.0 7.0 7.0 7.0 7.0 6.5 12.8 22 9.5 5.6]
+> #atm.wt=[0.302 0.154 0.041 0.002 0.021 0.010 0.008 0.005 0.001 0.107 0.144 0.093 0.075 0.036]
+97c100
+< evl.thetax=[8.6]
+---
+> #evl.thetax=[0]
+198c201
+< #powfs.bkgrnd=[0 1.5 8.273 25.25 25.25]
+---
+> #powfs.bkgrnd=[0 .19 8.273 25.25 25.25]
+241,242c244,245
+< #powfs.misregx=[0 0.15 0 0.42 0.42]
+< #powfs.misregy=[0 0.15 0 0.42 0.42]
+---
+> #powfs.misregx=[0 0.01414 0 0.42 0.42]
+> #powfs.misregy=[0 0.01414 0 0.42 0.42]
+254c257
+< powfs.nearecon=[43 1.4253727018130051 1.28 1.28]
+---
+> powfs.nearecon=[43 0.5021149302503303 1.28 1.28]
+271c274
+< #powfs.pixblur=[0.3 0.27 0 0 0]
+---
+> #powfs.pixblur=[0.3 0.38 0 0 0]
+275c278
+< #powfs.pixtheta=[3 0.050 .39 .39]
+---
+> #powfs.pixtheta=[1.5 0.050 .39 .39]
+283c286
+< #powfs.rne=[3 5 7.96 7.96]
+---
+> #powfs.rne=[0.36 5 7.96 7.96]
+289c292
+< #powfs.siglev=[960 1270 64529.03 147933.02 147933.02]
+---
+> #powfs.siglev=[960 636 64529.03 147933.02 147933.02]

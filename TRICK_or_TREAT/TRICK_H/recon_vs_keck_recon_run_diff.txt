@@ -1,0 +1,11 @@
+							      >	#dm.nmod=0
+#fit.actslave=1						      |	#fit.actslave=0
+#fit.guard=1						      <
+#recon.petal=0						      <
+#recon.petaldtrat=50					      <
+#recon.petalnpsf=16					      <
+#recon.petalstep=10					      <
+#recon.petaltt=1					      <
+#tomo.splitlrt=1					      |	#tomo.splitlrt=0
+#tomo.svdthres=1e-8					      |	#tomo.svdthres=1e-9
+#tomo.tikcr=1e-8					      |	#tomo.tikcr=1e-9

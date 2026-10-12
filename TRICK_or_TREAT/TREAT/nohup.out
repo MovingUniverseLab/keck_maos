@@ -1,0 +1,48 @@
+Warning: lbwfs_dtrat is not exactly an integer but is close. Using rounded value.
+Assumptions:
+  Wave-Front Sensor       = TREAT-K
+  Pupil Aperture Diameter = 9.57 m (assumed square)
+  Throughput (w QE)       = 0.50
+  Plate Scale             = 0.053 arcsec/pix
+  Spot Size Diameter      = 0.074 arcsec
+  Filter                  = K
+  Readnoise               = 0.5 e-
+  Pixels per Subaperture  = 16
+  Integration Time        = 0.0021 s
+  Guide Star Magnitude    = 8.00
+
+Outputs:
+  N_photons from star (powfs.siglev for MAOS config): 148986.511
+  N_photons per pixel from background (powfs.bkgrnd): 6.126
+  SNR: 385.856
+  NEA (powfs.nearecon): 0.192 mas
+Traceback (most recent call last):
+  File "/System/Volumes/Data/mnt/g3/scratch/nstieg/work/ao/keck/maos/keck_maos/TRICK_or_TREAT/TREAT/run_TREAT_comparison.py", line 112, in <module>
+    run_one_TREAT_sim(out_dir_name, ngs_gs_mag)
+  File "/System/Volumes/Data/mnt/g3/scratch/nstieg/work/ao/keck/maos/keck_maos/TRICK_or_TREAT/TREAT/run_TREAT_comparison.py", line 86, in run_one_TREAT_sim
+    os.chdir(maos_configuration_path)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/noahs/Dev/TRICK_or_TREAT/TREAT'
+Warning: lbwfs_dtrat is not exactly an integer but is close. Using rounded value.
+Assumptions:
+  Wave-Front Sensor       = TREAT-K
+  Pupil Aperture Diameter = 9.57 m (assumed square)
+  Throughput (w QE)       = 0.50
+  Plate Scale             = 0.053 arcsec/pix
+  Spot Size Diameter      = 0.074 arcsec
+  Filter                  = K
+  Readnoise               = 0.5 e-
+  Pixels per Subaperture  = 16
+  Integration Time        = 0.0021 s
+  Guide Star Magnitude    = 8.00
+
+Outputs:
+  N_photons from star (powfs.siglev for MAOS config): 148986.511
+  N_photons per pixel from background (powfs.bkgrnd): 6.126
+  SNR: 385.856
+  NEA (powfs.nearecon): 0.192 mas
+Traceback (most recent call last):
+  File "/System/Volumes/Data/mnt/g3/scratch/nstieg/work/ao/keck/maos/keck_maos/TRICK_or_TREAT/TREAT/run_TREAT_comparison.py", line 112, in <module>
+    run_one_TREAT_sim(out_dir_name, ngs_gs_mag)
+  File "/System/Volumes/Data/mnt/g3/scratch/nstieg/work/ao/keck/maos/keck_maos/TRICK_or_TREAT/TREAT/run_TREAT_comparison.py", line 86, in run_one_TREAT_sim
+    os.chdir(maos_configuration_path)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/noahs/Dev/TRICK_or_TREAT/TREAT'
